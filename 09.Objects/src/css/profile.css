@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.profile{
+    width: 70%;
+    background-color: gold;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+
+}
+
+.profile .profileImg img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+}
+
+.profile .profileImg{
+    text-align: center;
+}
+
+
+.profile .profileInfo{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.profile .profileInfo h1,h2,h3,h4{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+
+#logout{
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin: auto;
+    text-align: center;
+    display: block;
+    border: none;
+    cursor: pointer;
+
+}

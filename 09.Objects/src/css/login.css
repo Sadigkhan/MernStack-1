@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.register{
+    display: inline-block;
+    width: 100%;
+    background-color: green;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+
+}
+#loginForm{
+    background-color: gold;
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+}
+
+#loginForm input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    outline: none;
+}   
+
+#loginForm button{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    outline: none;
+    background-color: #333;
+    color: #fff;
+}
