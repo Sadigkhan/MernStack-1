@@ -1,0 +1,33 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Laptop",
+        "price": 999.99,
+        "description": "Powerful laptop with high-performance features.",
+        "image": "laptop_image.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Smartphone",
+        "price": 499.99,
+        "description": "Latest smartphone with advanced technology.",
+        "image": "smartphone_image.png"
+      },
+      {
+        "id": 3,
+        "name": "Headphones",
+        "price": 79.99,
+        "description": "Noise-canceling headphones for an immersive audio experience.",
+        "image": "headphones_image.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Digital Camera",
+        "price": 599.99,
+        "description": "Professional-grade digital camera for stunning photography.",
+        "image": "camera_image.jpg"
+      }
+    ]
+  }
+  

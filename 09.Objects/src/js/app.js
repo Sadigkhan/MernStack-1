@@ -50,25 +50,7 @@ userForm.addEventListener('submit', (e) => {
                 usernameInput.value = '';
                 imageInput.value = '';
             }
-            // users.push({
-            //     id: users.length + 1,
-            //     name: nameInput.value,
-            //     surName: surNameInput.value,
-            //     street: streetInput.value,
-            //     city: cityInput.value,
-            //     password: passwordInput.value,
-            //     username: usernameInput.value
-            // })
-
-            // localStorage.setItem("users", JSON.stringify(users))
-
-            // nameInput.value = '';
-            // surNameInput.value = '';
-            // streetInput.value = '';
-            // cityInput.value = '';
-            // passwordInput.value = '';
-            // usernameInput.value = '';
-            
+          
         }
 
     }

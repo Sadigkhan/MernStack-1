@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    height: 600px;
+    background-color: gold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+form {
+    background-color: black;
+    border-radius: 20px;
+    padding: 10%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+form input {
+    padding: 20px;
+    border-radius: 15px;
+    outline: none;
+
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.number {
+    display: none;
+}
+
+.winCase {
+    display: none;
+    color: green;
+    font-size: 65px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.loseCase {
+    display: none;
+    color: red;
+    font-size: 65px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.modal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    width: 100%;
+    background-color: purple;
+    flex-direction: column;
+
+
+
+}
+
+.newGame {
+    padding: 10px;
+    background-color: green;
+    color: white;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.quitGame {
+    padding: 10px;
+    background-color: red;
+    border-radius: 20px;
+    color: white;
+}
+
+.show {
+    display: none;
+}
