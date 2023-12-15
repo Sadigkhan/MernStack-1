@@ -16,6 +16,7 @@ number.textContent = Math.ceil(Math.random() * 10)
 console.log(modal.classList)
 form.addEventListener("submit", function (e) {
     e.preventDefault()
+    
     if (input.value == number.textContent) {
         number.style.display = "block"
         winCase.style.display = "block"
